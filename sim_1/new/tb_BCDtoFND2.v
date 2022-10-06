@@ -26,10 +26,15 @@ module tb_BCDtoFND2();
         #10 i_en = 1'b1; i_digitSelect = 2'b10;
         #10 i_en = 1'b1; i_digitSelect = 2'b11;
 
-        #10 i_en = 1'b0; i_digitSelect = 2'b00; i_value = 4'h0; 
-        #10 i_en = 1'b0; i_digitSelect = 2'b01; i_value = 4'h1;
-        #10 i_en = 1'b0; i_digitSelect = 2'b10; i_value = 4'h2;
+        #10 i_en = 1'b0; i_digitSelect = 2'b00; i_value = 4'h0;
+        #10 i_en = 1'b0; i_digitSelect = 2'b01; i_value = 4'h5;
+        #10 i_en = 1'b0; i_digitSelect = 2'b10; i_value = 4'ha;
+        #10 i_en = 1'b0; i_digitSelect = 2'b11; i_value = 4'hf;
+        #10 i_en = 1'b0; i_digitSelect = 2'b11; i_value = 4'h2;
         #10 i_en = 1'b0; i_digitSelect = 2'b11; i_value = 4'h3;
+        #10 i_en = 1'b0; i_digitSelect = 2'b11; i_value = 4'h4;
+        #10 i_en = 1'b0; i_digitSelect = 2'b11; i_value = 4'h8;
+        
         #10 $finish;
     end
 endmodule
